@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Divine Intervention",
+        "row": 5,
+        "prerequisites": ["Theology"],
+        "cost": 780,
+        "uniques": ["[+1 Faith] from every [Temple]", "[+10]% [Faith] [in all cities]"]
+    },
+    {
+        "name": "Mythological Warfare",
+        "row": 6,
+        "prerequisites": ["Military Science"],
+        "cost": 1150,
+        "uniques": ["[+15]% Strength <for [Mythological] units>", "[+1] Movement <for [Mythological] units>"]
+    },
+    {
+        "name": "Sacred Architecture",
+        "row": 4,
+        "prerequisites": ["Architecture"],
+        "cost": 485,
+        "uniques": ["[+15]% Production when constructing [All] wonders", "[+2 Culture] from every [World Wonder]"]
+    },
+    {
+        "name": "Titan Technology",
+        "row": 8,
+        "prerequisites": ["Computers"],
+        "cost": 6400,
+        "uniques": ["[+2 Science] from every [Coastal] cities", "[+20]% [Science] [in all cities]"]
+    }
+]
