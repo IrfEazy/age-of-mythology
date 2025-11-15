@@ -9,7 +9,7 @@
         "strength": 13,
         "cost": 56,
         "requiredTech": "Bronze Working",
-        "uniques": ["[+50]% Strength <vs [Mounted] units>"]
+        "uniques": ["[+50]% Strength <vs [mounted] units>"]
     },
     {
         "name": "Minotaur",
@@ -73,7 +73,7 @@
         "strength": 26,
         "cost": 140,
         "requiredTech": "Theology",
-        "uniques": ["Heals [10] damage if it kills a unit", "[+20]% Strength <when fighting in [Desert] tiles>"],
+        "uniques": ["Heals [10] damage if it kills a unit", "[+20]% Strength <when fighting in [desert] tiles>"],
         "attackSound": "jackal"
     },
     {
@@ -125,7 +125,7 @@
         "strength": 28,
         "cost": 130,
         "requiredTech": "Metal Casting",
-        "uniques": ["Heals [5] damage if it kills a unit", "[+25]% Strength <when fighting in [Tundra] tiles>", "[+25]% Strength <when fighting in [Snow] tiles>"],
+        "uniques": ["Heals [5] damage if it kills a unit", "[+25]% Strength <when fighting in [tundra] tiles>", "[+25]% Strength <when fighting in [snow] tiles>"],
         "attackSound": "club"
     },
     {
@@ -148,7 +148,7 @@
         "strength": 40,
         "cost": 200,
         "requiredTech": "Refrigeration",
-        "uniques": ["[+50]% Strength <when fighting in [Tundra] tiles>", "[+50]% Strength <when fighting in [Snow] tiles>", "May attack when embarked"],
+        "uniques": ["[+50]% Strength <when fighting in [tundra] tiles>", "[+50]% Strength <when fighting in [snow] tiles>", "May attack when embarked"],
         "attackSound": "ice"
     },
     // Atlantean Mythological Units
