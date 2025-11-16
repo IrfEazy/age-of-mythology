@@ -21,6 +21,23 @@
         "improvementStats": {
             "food": 1
         },
+        "name": "Chicken",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": [
+            "Grassland",
+            "Plains"
+        ],
+        "uniques": [
+            "Generated on every [15] tiles <in [{Featureless} {Grassland}] tiles>",
+            "Generated on every [18] tiles <in [{Featureless} {Plains}] tiles>"
+        ]
+    },
+    {
+        "food": 1,
+        "improvement": "Pasture",
+        "improvementStats": {
+            "food": 1
+        },
         "name": "Sheep",
         "resourceType": "Bonus",
         "terrainsCanBeFoundOn": [
