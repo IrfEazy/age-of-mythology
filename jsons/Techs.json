@@ -15,7 +15,7 @@
         "quote": "'The gods watch over their faithful servants' - Oracle of Delphi",
         "row": 1,
         "uniques": [
-          "[+1 Faith] <in cities with a [Shrine]>"
+          "[+1] [Faith] <in cities with a [Shrine]>"
         ]
       },
       {
@@ -28,7 +28,7 @@
         "quote": "'Build temples to honor the gods, and they shall grant you their favor' - High Priest",
         "row": 3,
         "uniques": [
-          "[+1 Culture] <in cities with a [Temple]>"
+          "[+1] [Culture] <in cities with a [Temple]>"
         ]
       }
     ],
@@ -53,7 +53,7 @@
         "quote": "'Call upon the mythical beasts, and watch your enemies tremble' - War Priest",
         "row": 2,
         "uniques": [
-          "[+15]% Strength <for [Mythological] units>"
+          "New [Mythological] units start with [2] XP [in all cities]"
         ]
       }
     ],
@@ -78,8 +78,8 @@
         "quote": "'The power of the Titans flows through our civilization' - Archon",
         "row": 2,
         "uniques": [
-          "[+1 Science] <in cities with a [University]>",
-          "[+10]% Production when constructing [Mythological] units"
+          "[+1] [Science] <in cities with a [University]>",
+          "New [Mythological] units start with [2] XP [in all cities]"
         ]
       }
     ],
