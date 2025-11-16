@@ -1,147 +1,184 @@
 [
-    // Greek Buildings
     {
+        "cost": 120,
+        "culture": 2,
+        "faith": 2,
+        "maintenance": 2,
         "name": "Temple of Zeus",
         "replaces": "Temple",
-        "uniqueTo": "Greeks",
-        "cost": 120,
-        "faith": 2,
-        "culture": 2,
-        "maintenance": 2,
         "requiredTech": "Philosophy",
-        "uniques": ["[+10]% [Production] [in this city]", "[+1 Culture] from [mountain] tiles [in this city]"]
+        "uniques": [
+            "[+10]% [Production] [in this city]",
+            "[+1 Culture] from [Mountain] tiles [in this city]"
+        ],
+        "uniqueTo": "Greeks"
     },
     {
-        "name": "Parthenon",
-        "uniqueTo": "Greeks",
         "cost": 300,
         "culture": 4,
+        "greatPersonPoints": {
+            "Great Artist": 2
+        },
         "happiness": 3,
-        "greatPersonPoints": {"Great Artist": 2},
+        "name": "Parthenon",
+        "quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson",
         "requiredTech": "Drama and Poetry",
-        "uniques": ["[+25]% [Culture] [in this city]"],
-        "quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
+        "uniques": [
+            "[+25]% [Culture] [in this city]"
+        ],
+        "uniqueTo": "Greeks"
     },
-    // Egyptian Buildings
     {
-        "name": "Temple of Ra",
-        "replaces": "Temple",
-        "uniqueTo": "Egyptians",
         "cost": 120,
         "faith": 3,
         "gold": 2,
         "maintenance": 2,
+        "name": "Temple of Ra",
+        "replaces": "Temple",
         "requiredTech": "Philosophy",
-        "uniques": ["[+2 Gold] from [desert] tiles [in this city]"]
+        "uniques": [
+            "[+2 Gold] from [Desert] tiles [in this city]"
+        ],
+        "uniqueTo": "Egyptians"
     },
     {
-        "name": "Pyramid",
-        "uniqueTo": "Egyptians",
-        "isNationalWonder": true,
         "cost": 250,
         "culture": 3,
+        "greatPersonPoints": {
+            "Great Engineer": 2
+        },
+        "isNationalWonder": true,
+        "name": "Pyramid",
         "production": 2,
-        "greatPersonPoints": {"Great Engineer": 2},
-        "requiredTech": "Construction",
         "requiredBuilding": "Monument",
-        "uniques": ["[+15]% Production when constructing [All] wonders [in this city]", "Only available <in [Capital] cities>"]
+        "requiredTech": "Construction",
+        "uniques": [
+            "[+15]% Production when constructing [All] wonders [in this city]",
+            "Only available <in [Capital] cities>"
+        ],
+        "uniqueTo": "Egyptians"
     },
     {
-        "name": "Obelisk",
-        "replaces": "Monument",
-        "uniqueTo": "Egyptians",
         "cost": 50,
         "culture": 3,
         "maintenance": 1,
-        "uniques": ["[+1 Culture] from [desert] tiles [in this city]"]
+        "name": "Obelisk",
+        "replaces": "Monument",
+        "uniques": [
+            "[+1 Culture] from [Desert] tiles [in this city]"
+        ],
+        "uniqueTo": "Egyptians"
     },
-    // Norse Buildings
     {
-        "name": "Temple of Odin",
-        "replaces": "Temple",
-        "uniqueTo": "Norse",
         "cost": 120,
         "faith": 2,
+        "maintenance": 2,
+        "name": "Temple of Odin",
         "production": 2,
-        "maintenance": 2,
+        "replaces": "Temple",
         "requiredTech": "Philosophy",
-        "uniques": ["[+1 Production] from [tundra] tiles [in this city]", "[+1 Production] from [snow] tiles [in this city]"]
+        "uniques": [
+            "[+1 Production] from [Tundra] tiles [in this city]",
+            "[+1 Production] from [Snow] tiles [in this city]"
+        ],
+        "uniqueTo": "Norse"
     },
     {
-        "name": "Longhouse",
-        "replaces": "Workshop",
-        "uniqueTo": "Norse",
         "cost": 120,
-        "production": 3,
         "maintenance": 2,
+        "name": "Longhouse",
+        "production": 3,
+        "replaces": "Workshop",
         "requiredTech": "Metal Casting",
-        "uniques": ["[+1 Production] from [forest] tiles [in this city]"]
+        "uniques": [
+            "[+1 Production] from [Forest] tiles [in this city]"
+        ],
+        "uniqueTo": "Norse"
     },
     {
-        "name": "Mead Hall",
-        "uniqueTo": "Norse",
         "cost": 100,
-        "happiness": 2,
         "culture": 2,
+        "happiness": 2,
         "maintenance": 1,
+        "name": "Mead Hall",
         "requiredTech": "Drama and Poetry",
-        "uniques": ["[+1 Culture] <after discovering [Chivalry]>", "Provides [1] [Ale]"]
+        "uniques": [
+            "[+1 Culture] <after discovering [Chivalry]>",
+            "Provides [1] [Ale]"
+        ],
+        "uniqueTo": "Norse"
     },
-    // Atlantean Buildings
     {
+        "cost": 120,
+        "faith": 2,
+        "maintenance": 2,
         "name": "Temple of Poseidon",
         "replaces": "Temple",
-        "uniqueTo": "Atlanteans",
-        "cost": 120,
-        "faith": 2,
+        "requiredTech": "Philosophy",
         "science": 2,
-        "maintenance": 2,
-        "requiredTech": "Philosophy",
-        "uniques": ["[+1 Science] from [coast] tiles [in this city]"]
+        "uniques": [
+            "[+1 Science] from [Coastal] tiles [in this city]"
+        ],
+        "uniqueTo": "Atlanteans"
     },
     {
-        "name": "Sky Passage",
-        "uniqueTo": "Atlanteans",
         "cost": 200,
-        "science": 3,
-        "production": 2,
         "maintenance": 3,
+        "name": "Sky Passage",
+        "production": 2,
         "requiredTech": "Compass",
-        "uniques": ["[+25]% [Science] <in cities with a [Library]>", "Only available <in [coast] cities>"]
+        "science": 3,
+        "uniques": [
+            "[+25]% [Science] <in cities with a [Library]>",
+            "Only available <in [Coastal] cities>"
+        ],
+        "uniqueTo": "Atlanteans"
     },
     {
-        "name": "Mirror Tower",
-        "uniqueTo": "Atlanteans",
-        "replaces": "Observatory",
         "cost": 160,
-        "science": 4,
         "maintenance": 2,
-        "requiredTech": "Astronomy",
+        "name": "Mirror Tower",
+        "replaces": "Observatory",
         "requiredBuilding": "Library",
-        "uniques": ["[+50]% [Science] from [mountain] tiles [in this city]", "Can only be built [in [Capital]]"]
+        "requiredTech": "Astronomy",
+        "science": 4,
+        "uniques": [
+            "[+50]% [Science] from [Mountain] tiles [in this city]",
+            "Can only be built <in [Capital] cities>"
+        ],
+        "uniqueTo": "Atlanteans"
     },
-    // Common Mythological Buildings
     {
-        "name": "Oracle",
         "cost": 175,
-        "isWonder": true,
-        "faith": 3,
         "culture": 2,
-        "greatPersonPoints": {"Great Prophet": 1},
+        "faith": 3,
+        "greatPersonPoints": {
+            "Great Prophet": 1
+        },
+        "isWonder": true,
+        "name": "Oracle",
+        "quote": "'The ancient Oracle said that I was the wisest of all the Greeks.' - Socrates",
         "requiredTech": "Philosophy",
-        "uniques": ["Free [Great Prophet] appears", "[+1] population [in this city]"],
-        "quote": "'The ancient Oracle said that I was the wisest of all the Greeks.' - Socrates"
+        "uniques": [
+            "Free [Great Prophet] appears",
+            "[+1] population [in this city]"
+        ]
     },
     {
-        "name": "Colossus",
         "cost": 185,
-        "isWonder": true,
-        "gold": 5,
         "culture": 1,
-        "greatPersonPoints": {"Great Merchant": 1},
-        "requiredTech": "Bronze Working",
+        "gold": 5,
+        "greatPersonPoints": {
+            "Great Merchant": 1
+        },
+        "isWonder": true,
+        "name": "Colossus",
+        "quote": "'Why man, he doth bestride the narrow world like a colossus.' - William Shakespeare",
         "requiredBuilding": "Harbor",
-        "uniques": ["[+1] Movement <for [Water] units>", "Only available <in [coast] cities>"],
-        "quote": "'Why man, he doth bestride the narrow world like a colossus.' - William Shakespeare"
+        "requiredTech": "Bronze Working",
+        "uniques": [
+            "[+1] Movement <for [Water] units>",
+            "Only available <in [Coastal] cities>"
+        ]
     }
 ]

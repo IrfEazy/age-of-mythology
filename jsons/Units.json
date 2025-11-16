@@ -1,203 +1,247 @@
 [
-    // Greek Mythological Units
     {
-        "name": "Hoplite",
-        "unitType": "Melee",
-        "uniqueTo": "Greeks",
-        "replaces": "Spearman",
-        "movement": 2,
-        "strength": 13,
         "cost": 56,
+        "movement": 2,
+        "name": "Hoplite",
+        "replaces": "Spearman",
         "requiredTech": "Bronze Working",
-        "uniques": ["[+50]% Strength <vs [mounted] units>"]
+        "strength": 13,
+        "uniques": [
+            "[+50]% Strength <vs [Mounted] units>"
+        ],
+        "uniqueTo": "Greeks",
+        "unitType": "Melee"
     },
     {
-        "name": "Minotaur",
-        "unitType": "Melee",
-        "uniqueTo": "Greeks",
-        "movement": 2,
-        "strength": 30,
+        "attackSound": "minotaur",
         "cost": 150,
+        "movement": 2,
+        "name": "Minotaur",
+        "requiredResource": "Horses",
         "requiredTech": "Philosophy",
-        "requiredResource": "Horses",
-        "uniques": ["[+25]% Strength <when attacking>", "Can move after attacking"],
-        "attackSound": "minotaur"
+        "strength": 30,
+        "uniques": [
+            "[+25]% Strength <when attacking>",
+            "Can move after attacking"
+        ],
+        "uniqueTo": "Greeks",
+        "unitType": "Melee"
     },
     {
-        "name": "Centaur",
-        "unitType": "Ranged",
-        "uniqueTo": "Greeks",
-        "movement": 4,
-        "strength": 12,
-        "rangedStrength": 18,
-        "range": 2,
+        "attackSound": "arrow",
         "cost": 100,
-        "requiredTech": "Horseback Riding",
-        "uniques": ["No defensive terrain bonus"],
-        "attackSound": "arrow"
-    },
-    {
-        "name": "Cyclops",
-        "unitType": "Siege",
-        "uniqueTo": "Greeks",
-        "movement": 2,
-        "strength": 15,
-        "rangedStrength": 30,
-        "range": 2,
-        "cost": 120,
-        "requiredTech": "Mathematics",
-        "uniques": ["[+200]% Strength <vs cities>", "No defensive terrain bonus", "Must set up to ranged attack"],
-        "attackSound": "throw"
-    },
-    // Egyptian Mythological Units
-    {
-        "name": "Chariot Archer",
-        "unitType": "Ranged",
-        "uniqueTo": "Egyptians",
-        "replaces": "Chariot",
         "movement": 4,
-        "strength": 8,
-        "rangedStrength": 13,
+        "name": "Centaur",
         "range": 2,
-        "cost": 70,
-        "requiredTech": "The Wheel",
-        "requiredResource": "Horses",
-        "uniques": ["No defensive terrain bonus"],
-        "attackSound": "arrow"
+        "rangedStrength": 18,
+        "requiredTech": "Horseback Riding",
+        "strength": 12,
+        "uniques": [
+            "No defensive terrain bonus"
+        ],
+        "uniqueTo": "Greeks",
+        "unitType": "Ranged"
     },
     {
-        "name": "Anubite",
-        "unitType": "Melee",
-        "uniqueTo": "Egyptians",
-        "movement": 3,
-        "strength": 26,
-        "cost": 140,
-        "requiredTech": "Theology",
-        "uniques": ["Heals [10] damage if it kills a unit", "[+20]% Strength <when fighting in [desert] tiles>"],
-        "attackSound": "jackal"
-    },
-    {
-        "name": "Sphinx",
-        "unitType": "Ranged",
-        "uniqueTo": "Egyptians",
-        "movement": 3,
-        "strength": 20,
-        "rangedStrength": 24,
+        "attackSound": "throw",
+        "cost": 120,
+        "movement": 2,
+        "name": "Cyclops",
         "range": 2,
-        "cost": 160,
-        "requiredTech": "Education",
-        "uniques": ["Can see over obstacles"],
-        "attackSound": "magic"
-    },
-    {
-        "name": "Phoenix",
-        "unitType": "Ranged",
-        "uniqueTo": "Egyptians",
-        "movement": 1,
-        "strength": 18,
-        "rangedStrength": 28,
-        "range": 2,
-        "cost": 180,
-        "requiredTech": "Flight",
-        "uniques": ["[+100]% Strength <vs [Air] units>", "All tiles cost 1 movement"],
-        "attackSound": "fire"
-    },
-    // Norse Mythological Units
-    {
-        "name": "Berserk",
-        "unitType": "Melee",
-        "uniqueTo": "Norse",
-        "replaces": "Longswordsman",
-        "movement": 2,
-        "strength": 23,
-        "cost": 90,
-        "requiredTech": "Steel",
-        "requiredResource": "Iron",
-        "uniques": ["[+20]% Strength <when attacking>", "[-10]% Strength <when defending>"],
-        "promotions": ["Amphibious"],
-        "attackSound": "sword"
-    },
-    {
-        "name": "Troll",
-        "unitType": "Melee",
-        "uniqueTo": "Norse",
-        "movement": 2,
-        "strength": 28,
-        "cost": 130,
-        "requiredTech": "Metal Casting",
-        "uniques": ["Heals [5] damage if it kills a unit", "[+25]% Strength <when fighting in [tundra] tiles>", "[+25]% Strength <when fighting in [snow] tiles>"],
-        "attackSound": "club"
-    },
-    {
-        "name": "Valkyrie",
-        "unitType": "Mounted",
-        "uniqueTo": "Norse",
-        "movement": 5,
-        "strength": 24,
-        "cost": 140,
-        "requiredTech": "Chivalry",
-        "requiredResource": "Horses",
-        "uniques": ["Can move after attacking", "Heals [15] damage if it kills a unit"],
-        "attackSound": "spear"
-    },
-    {
-        "name": "Frost Giant",
-        "unitType": "Melee",
-        "uniqueTo": "Norse",
-        "movement": 2,
-        "strength": 40,
-        "cost": 200,
-        "requiredTech": "Refrigeration",
-        "uniques": ["[+50]% Strength <when fighting in [tundra] tiles>", "[+50]% Strength <when fighting in [snow] tiles>", "May attack when embarked"],
-        "attackSound": "ice"
-    },
-    // Atlantean Mythological Units
-    {
-        "name": "Murmillo",
-        "unitType": "Melee",
-        "uniqueTo": "Atlanteans",
-        "replaces": "Swordsman",
-        "movement": 2,
+        "rangedStrength": 30,
+        "requiredTech": "Mathematics",
         "strength": 15,
-        "cost": 65,
-        "requiredTech": "Iron Working",
-        "requiredResource": "Iron",
-        "uniques": ["[+15]% Strength <when defending>"]
+        "uniques": [
+            "[+200]% Strength <vs cities>",
+            "No defensive terrain bonus",
+            "Must set up to ranged attack"
+        ],
+        "uniqueTo": "Greeks",
+        "unitType": "Siege"
     },
     {
-        "name": "Automaton",
-        "unitType": "Melee",
-        "uniqueTo": "Atlanteans",
+        "attackSound": "arrow",
+        "cost": 70,
+        "movement": 4,
+        "name": "Chariot Archer",
+        "range": 2,
+        "rangedStrength": 13,
+        "replaces": "Chariot",
+        "requiredResource": "Horses",
+        "requiredTech": "The Wheel",
+        "strength": 8,
+        "uniques": [
+            "No defensive terrain bonus"
+        ],
+        "uniqueTo": "Egyptians",
+        "unitType": "Ranged"
+    },
+    {
+        "attackSound": "jackal",
+        "cost": 140,
         "movement": 3,
-        "strength": 32,
-        "cost": 170,
-        "requiredTech": "Machinery",
-        "requiredResource": "Iron",
-        "uniques": ["No defensive terrain penalty for attacking", "Never appears as a Barbarian unit"],
-        "attackSound": "metal"
+        "name": "Anubite",
+        "requiredTech": "Theology",
+        "strength": 26,
+        "uniques": [
+            "Heals [10] damage if it kills a unit",
+            "[+20]% Strength <when fighting in [Desert] tiles>"
+        ],
+        "uniqueTo": "Egyptians",
+        "unitType": "Melee"
     },
     {
-        "name": "Promethean",
-        "unitType": "Melee",
-        "uniqueTo": "Atlanteans",
-        "movement": 2,
-        "strength": 35,
+        "attackSound": "magic",
         "cost": 160,
-        "requiredTech": "Chemistry",
-        "uniques": ["Heals [20] damage if it kills a unit", "May create improvements on tiles"],
-        "attackSound": "fire"
+        "movement": 3,
+        "name": "Sphinx",
+        "range": 2,
+        "rangedStrength": 24,
+        "requiredTech": "Education",
+        "strength": 20,
+        "uniques": [
+            "Can see over obstacles"
+        ],
+        "uniqueTo": "Egyptians",
+        "unitType": "Ranged"
     },
     {
-        "name": "Argus",
-        "unitType": "Ranged",
-        "uniqueTo": "Atlanteans",
-        "movement": 2,
-        "strength": 25,
-        "rangedStrength": 32,
-        "range": 3,
+        "attackSound": "fire",
         "cost": 180,
+        "movement": 1,
+        "name": "Phoenix",
+        "range": 2,
+        "rangedStrength": 28,
+        "requiredTech": "Flight",
+        "strength": 18,
+        "uniques": [
+            "[+100]% Strength <vs [Air] units>",
+            "All tiles cost 1 movement"
+        ],
+        "uniqueTo": "Egyptians",
+        "unitType": "Ranged"
+    },
+    {
+        "attackSound": "sword",
+        "cost": 90,
+        "movement": 2,
+        "name": "Berserk",
+        "promotions": [
+            "Amphibious"
+        ],
+        "replaces": "Longswordsman",
+        "requiredResource": "Iron",
+        "requiredTech": "Steel",
+        "strength": 23,
+        "uniques": [
+            "[+20]% Strength <when attacking>",
+            "[-10]% Strength <when defending>"
+        ],
+        "uniqueTo": "Norse",
+        "unitType": "Melee"
+    },
+    {
+        "attackSound": "club",
+        "cost": 130,
+        "movement": 2,
+        "name": "Troll",
+        "requiredTech": "Metal Casting",
+        "strength": 28,
+        "uniques": [
+            "Heals [5] damage if it kills a unit",
+            "[+25]% Strength <when fighting in [Tundra] tiles>",
+            "[+25]% Strength <when fighting in [Snow] tiles>"
+        ],
+        "uniqueTo": "Norse",
+        "unitType": "Melee"
+    },
+    {
+        "attackSound": "spear",
+        "cost": 140,
+        "movement": 5,
+        "name": "Valkyrie",
+        "requiredResource": "Horses",
+        "requiredTech": "Chivalry",
+        "strength": 24,
+        "uniques": [
+            "Can move after attacking",
+            "Heals [15] damage if it kills a unit"
+        ],
+        "uniqueTo": "Norse",
+        "unitType": "Mounted"
+    },
+    {
+        "attackSound": "ice",
+        "cost": 200,
+        "movement": 2,
+        "name": "Frost Giant",
+        "requiredTech": "Refrigeration",
+        "strength": 40,
+        "uniques": [
+            "[+50]% Strength <when fighting in [Tundra] tiles>",
+            "[+50]% Strength <when fighting in [Snow] tiles>",
+            "May attack when embarked"
+        ],
+        "uniqueTo": "Norse",
+        "unitType": "Melee"
+    },
+    {
+        "cost": 65,
+        "movement": 2,
+        "name": "Murmillo",
+        "replaces": "Swordsman",
+        "requiredResource": "Iron",
+        "requiredTech": "Iron Working",
+        "strength": 15,
+        "uniques": [
+            "[+15]% Strength <when defending>"
+        ],
+        "uniqueTo": "Atlanteans",
+        "unitType": "Melee"
+    },
+    {
+        "attackSound": "metal",
+        "cost": 170,
+        "movement": 3,
+        "name": "Automaton",
+        "requiredResource": "Iron",
+        "requiredTech": "Machinery",
+        "strength": 32,
+        "uniques": [
+            "No defensive terrain penalty for attacking",
+            "Never appears as a Barbarian unit"
+        ],
+        "uniqueTo": "Atlanteans",
+        "unitType": "Melee"
+    },
+    {
+        "attackSound": "fire",
+        "cost": 160,
+        "movement": 2,
+        "name": "Promethean",
+        "requiredTech": "Chemistry",
+        "strength": 35,
+        "uniques": [
+            "Heals [20] damage if it kills a unit",
+            "May create improvements on tiles"
+        ],
+        "uniqueTo": "Atlanteans",
+        "unitType": "Melee"
+    },
+    {
+        "attackSound": "bow",
+        "cost": 180,
+        "movement": 2,
+        "name": "Argus",
+        "range": 3,
+        "rangedStrength": 32,
         "requiredTech": "Ballistics",
-        "uniques": ["[+1] Sight", "[+1] Range"],
-        "attackSound": "bow"
+        "strength": 25,
+        "uniques": [
+            "[+1] Sight",
+            "[+1] Range"
+        ],
+        "uniqueTo": "Atlanteans",
+        "unitType": "Ranged"
     }
 ]

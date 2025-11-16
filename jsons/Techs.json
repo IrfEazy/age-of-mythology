@@ -1,75 +1,88 @@
 [
   {
+    "buildingCost": 60,
     "columnNumber": 0,
     "era": "Ancient era",
     "techCost": 50,
-    "buildingCost": 60,
-    "wonderCost": 185,
     "techs": [
       {
-        "name": "Divine Intervention",
-        "row": 1,
-        "quote": "'The gods watch over their faithful servants' - Oracle of Delphi",
-        "uniques": ["[+1 Faith] <in cities with a [Shrine]>"],
         "civilopediaText": [
           {
             "text": "Divine Intervention represents the blessing of the gods upon their worshippers, granting divine favor and protection."
           }
+        ],
+        "name": "Divine Intervention",
+        "quote": "'The gods watch over their faithful servants' - Oracle of Delphi",
+        "row": 1,
+        "uniques": [
+          "[+1 Faith] <in cities with a [Shrine]>"
         ]
       },
       {
-        "name": "Sacred Architecture",
-        "row": 3,
-        "quote": "'Build temples to honor the gods, and they shall grant you their favor' - High Priest",
-        "uniques": ["[+1 Culture] <in cities with a [Temple]>"],
         "civilopediaText": [
           {
             "text": "Sacred Architecture allows civilizations to construct magnificent temples and religious structures to honor their pantheon."
           }
+        ],
+        "name": "Sacred Architecture",
+        "quote": "'Build temples to honor the gods, and they shall grant you their favor' - High Priest",
+        "row": 3,
+        "uniques": [
+          "[+1 Culture] <in cities with a [Temple]>"
         ]
       }
-    ]
+    ],
+    "wonderCost": 185
   },
   {
+    "buildingCost": 100,
     "columnNumber": 1,
     "era": "Classical era",
     "techCost": 100,
-    "buildingCost": 100,
-    "wonderCost": 250,
     "techs": [
       {
-        "name": "Mythological Warfare",
-        "row": 2,
-        "prerequisites": ["Divine Intervention"],
-        "quote": "'Call upon the mythical beasts, and watch your enemies tremble' - War Priest",
-        "uniques": ["[+15]% Strength <for [Mythological] units>"],
         "civilopediaText": [
           {
             "text": "Mythological Warfare represents the ability to summon and command legendary creatures in battle, harnessing their supernatural power."
           }
+        ],
+        "name": "Mythological Warfare",
+        "prerequisites": [
+          "Divine Intervention"
+        ],
+        "quote": "'Call upon the mythical beasts, and watch your enemies tremble' - War Priest",
+        "row": 2,
+        "uniques": [
+          "[+15]% Strength <for [Mythological] units>"
         ]
       }
-    ]
+    ],
+    "wonderCost": 250
   },
   {
+    "buildingCost": 150,
     "columnNumber": 2,
     "era": "Medieval era",
     "techCost": 175,
-    "buildingCost": 150,
-    "wonderCost": 400,
     "techs": [
       {
-        "name": "Titan Technology",
-        "row": 2,
-        "prerequisites": ["Mythological Warfare"],
-        "quote": "'The power of the Titans flows through our civilization' - Archon",
-        "uniques": ["[+1 Science] <in cities with a [University]>", "[+10]% Production when constructing [Mythological] units"],
         "civilopediaText": [
           {
             "text": "Titan Technology represents the pinnacle of mythological knowledge, combining ancient wisdom with the raw power of the Titans themselves."
           }
+        ],
+        "name": "Titan Technology",
+        "prerequisites": [
+          "Mythological Warfare"
+        ],
+        "quote": "'The power of the Titans flows through our civilization' - Archon",
+        "row": 2,
+        "uniques": [
+          "[+1 Science] <in cities with a [University]>",
+          "[+10]% Production when constructing [Mythological] units"
         ]
       }
-    ]
+    ],
+    "wonderCost": 400
   }
 ]
