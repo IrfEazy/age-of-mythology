@@ -1,0 +1,143 @@
+[
+    {
+        "movementType": "Land",
+        "name": "Civilian"
+    },
+    {
+        "movementType": "Land",
+        "name": "Sword"
+    },
+    {
+        "movementType": "Land",
+        "name": "Gunpowder"
+    },
+    {
+        "movementType": "Land",
+        "name": "Archery"
+    },
+    {
+        "movementType": "Land",
+        "name": "Ranged Gunpowder"
+    },
+    {
+        "movementType": "Land",
+        "name": "Scout"
+    },
+    {
+        "movementType": "Land",
+        "name": "Mounted"
+    },
+    {
+        "movementType": "Land",
+        "name": "Armored"
+    },
+    {
+        "civilopediaText": [
+            {
+                "text": "Siege units are extremely powerful against cities, but need to be Set Up before they can attack.\nOnce your siege unit is set up, it can attack from the current tile,\n  but once moved to another tile, it will need to be set up again."
+            }
+        ],
+        "movementType": "Land",
+        "name": "Siege"
+    },
+    {
+        "movementType": "Water",
+        "name": "Civilian Water"
+    },
+    {
+        "movementType": "Water",
+        "name": "Melee Water"
+    },
+    {
+        "movementType": "Water",
+        "name": "Ranged Water"
+    },
+    {
+        "movementType": "Water",
+        "name": "Submarine",
+        "uniques": [
+            "Can enter ice tiles",
+            "Invisible to non-adjacent units",
+            "Can see invisible [Submarine] units"
+        ]
+    },
+    {
+        "movementType": "Water",
+        "name": "Aircraft Carrier"
+    },
+    {
+        "movementType": "Air",
+        "name": "Fighter",
+        "uniques": [
+            "Aircraft",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "Can perform Air Sweep"
+        ]
+    },
+    {
+        "movementType": "Air",
+        "name": "Bomber",
+        "uniques": [
+            "Aircraft"
+        ]
+    },
+    {
+        "movementType": "Air",
+        "name": "Atomic Bomber",
+        "uniques": [
+            "Aircraft"
+        ]
+    },
+    {
+        "movementType": "Air",
+        "name": "Missile",
+        "uniques": [
+            "Self-destructs when attacking",
+            "Cannot be intercepted"
+        ]
+    },
+    {
+        "movementType": "Land",
+        "name": "Helicopter",
+        "uniques": [
+            "Can pass through impassable tiles"
+        ]
+    },
+    {
+        "movementType": "Land",
+        "name": "Melee"
+    },
+    {
+        "movementType": "Land",
+        "name": "Ranged"
+    },
+    {
+        "movementType": "Land",
+        "name": "Armor"
+    },
+    {
+        "movementType": "Water",
+        "name": "WaterCivilian"
+    },
+    {
+        "movementType": "Water",
+        "name": "WaterMelee"
+    },
+    {
+        "movementType": "Water",
+        "name": "WaterRanged"
+    },
+    {
+        "movementType": "Water",
+        "name": "WaterSubmarine"
+    },
+    {
+        "movementType": "Water",
+        "name": "WaterAircraftCarrier"
+    },
+    {
+        "movementType": "Air",
+        "name": "AtomicBomber"
+    }
+]

@@ -1,0 +1,206 @@
+[
+    {
+        "barbarianModifier": 0.67,
+        "cityStateTributeScalingInterval": 5,
+        "cultureCostModifier": 0.67,
+        "dealDuration": 25,
+        "faithCostModifier": 0.67,
+        "goldCostModifier": 0.67,
+        "goldGiftModifier": 1.25,
+        "goldenAgeLengthModifier": 0.8,
+        "improvementBuildLengthModifier": 0.67,
+        "modifier": 0.67,
+        "name": "Quick",
+        "peaceDealDuration": 10,
+        "productionCostModifier": 0.67,
+        "religiousPressureAdjacentCity": 9,
+        "scienceCostModifier": 0.67,
+        "startYear": -4000,
+        "turns": [
+            {
+                "untilTurn": 50,
+                "yearsPerTurn": 60
+            },
+            {
+                "untilTurn": 80,
+                "yearsPerTurn": 40
+            },
+            {
+                "untilTurn": 100,
+                "yearsPerTurn": 30
+            },
+            {
+                "untilTurn": 130,
+                "yearsPerTurn": 20
+            },
+            {
+                "untilTurn": 155,
+                "yearsPerTurn": 10
+            },
+            {
+                "untilTurn": 195,
+                "yearsPerTurn": 5
+            },
+            {
+                "untilTurn": 260,
+                "yearsPerTurn": 2
+            },
+            {
+                "untilTurn": 330,
+                "yearsPerTurn": 1
+            }
+        ]
+    },
+    {
+        "barbarianModifier": 1,
+        "cityStateTributeScalingInterval": 6.5,
+        "cultureCostModifier": 1,
+        "dealDuration": 30,
+        "faithCostModifier": 1,
+        "goldCostModifier": 1,
+        "goldGiftModifier": 1,
+        "goldenAgeLengthModifier": 1,
+        "improvementBuildLengthModifier": 1,
+        "modifier": 1,
+        "name": "Standard",
+        "peaceDealDuration": 10,
+        "productionCostModifier": 1,
+        "religiousPressureAdjacentCity": 6,
+        "scienceCostModifier": 1,
+        "startYear": -4000,
+        "turns": [
+            {
+                "untilTurn": 75,
+                "yearsPerTurn": 40
+            },
+            {
+                "untilTurn": 135,
+                "yearsPerTurn": 25
+            },
+            {
+                "untilTurn": 160,
+                "yearsPerTurn": 20
+            },
+            {
+                "untilTurn": 210,
+                "yearsPerTurn": 10
+            },
+            {
+                "untilTurn": 270,
+                "yearsPerTurn": 5
+            },
+            {
+                "untilTurn": 320,
+                "yearsPerTurn": 2
+            },
+            {
+                "untilTurn": 440,
+                "yearsPerTurn": 1
+            },
+            {
+                "untilTurn": 500,
+                "yearsPerTurn": 0.5
+            }
+        ]
+    },
+    {
+        "barbarianModifier": 1.5,
+        "cityStateTributeScalingInterval": 14,
+        "cultureCostModifier": 1.5,
+        "dealDuration": 45,
+        "faithCostModifier": 1.5,
+        "goldCostModifier": 1.5,
+        "goldGiftModifier": 0.75,
+        "goldenAgeLengthModifier": 1.25,
+        "improvementBuildLengthModifier": 1.5,
+        "modifier": 1.5,
+        "name": "Epic",
+        "peaceDealDuration": 15,
+        "productionCostModifier": 1.5,
+        "religiousPressureAdjacentCity": 4,
+        "scienceCostModifier": 1.5,
+        "startYear": -4000,
+        "turns": [
+            {
+                "untilTurn": 140,
+                "yearsPerTurn": 25
+            },
+            {
+                "untilTurn": 230,
+                "yearsPerTurn": 15
+            },
+            {
+                "untilTurn": 270,
+                "yearsPerTurn": 10
+            },
+            {
+                "untilTurn": 360,
+                "yearsPerTurn": 5
+            },
+            {
+                "untilTurn": 430,
+                "yearsPerTurn": 2
+            },
+            {
+                "untilTurn": 530,
+                "yearsPerTurn": 1
+            },
+            {
+                "untilTurn": 750,
+                "yearsPerTurn": 0.5
+            }
+        ]
+    },
+    {
+        "barbarianModifier": 4,
+        "cityStateTributeScalingInterval": 32,
+        "cultureCostModifier": 3,
+        "dealDuration": 90,
+        "faithCostModifier": 3,
+        "goldCostModifier": 3,
+        "goldGiftModifier": 0.67,
+        "goldenAgeLengthModifier": 2,
+        "improvementBuildLengthModifier": 3,
+        "modifier": 3,
+        "name": "Marathon",
+        "peaceDealDuration": 30,
+        "productionCostModifier": 3,
+        "religiousPressureAdjacentCity": 2,
+        "scienceCostModifier": 3,
+        "startYear": -4000,
+        "turns": [
+            {
+                "untilTurn": 100,
+                "yearsPerTurn": 15
+            },
+            {
+                "untilTurn": 400,
+                "yearsPerTurn": 10
+            },
+            {
+                "untilTurn": 570,
+                "yearsPerTurn": 5
+            },
+            {
+                "untilTurn": 771,
+                "yearsPerTurn": 2
+            },
+            {
+                "untilTurn": 900,
+                "yearsPerTurn": 1
+            },
+            {
+                "untilTurn": 1080,
+                "yearsPerTurn": 0.5
+            },
+            {
+                "untilTurn": 1344,
+                "yearsPerTurn": 0.25
+            },
+            {
+                "untilTurn": 1500,
+                "yearsPerTurn": 0.083333
+            }
+        ]
+    }
+]
