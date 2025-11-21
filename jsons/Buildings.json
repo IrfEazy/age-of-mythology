@@ -30,10 +30,10 @@
         "maintenance": 1,
         "name": "Stele",
         "replaces": "Monument",
+        "uniqueTo": "Ethiopia",
         "uniques": [
             "Destroyed when the city is captured"
-        ],
-        "uniqueTo": "Ethiopia"
+        ]
     },
     {
         "food": 2,
@@ -65,10 +65,10 @@
         "replaces": "Shrine",
         "requiredTech": "Pottery",
         "science": 2,
+        "uniqueTo": "The Maya",
         "uniques": [
             "Only available <when religion is enabled>"
-        ],
-        "uniqueTo": "The Maya"
+        ]
     },
     {
         "culture": 1,
@@ -127,10 +127,10 @@
         "name": "Paper Maker",
         "replaces": "Library",
         "requiredTech": "Writing",
+        "uniqueTo": "China",
         "uniques": [
             "[+1 Science] per [2] population [in this city]"
-        ],
-        "uniqueTo": "China"
+        ]
     },
     {
         "culture": 1,
@@ -179,11 +179,11 @@
         "production": 1,
         "replaces": "Water Mill",
         "requiredTech": "The Wheel",
+        "uniqueTo": "Aztecs",
         "uniques": [
             "[+2 Food] from [Lakes] tiles [in this city]",
             "Must be next to [Fresh water]"
-        ],
-        "uniqueTo": "Aztecs"
+        ]
     },
     {
         "cityHealth": 50,
@@ -203,10 +203,10 @@
         "name": "Walls of Babylon",
         "replaces": "Walls",
         "requiredTech": "Masonry",
+        "uniqueTo": "Babylon",
         "uniques": [
             "Destroyed when the city is captured"
-        ],
-        "uniqueTo": "Babylon"
+        ]
     },
     {
         "culture": 1,
@@ -253,13 +253,13 @@
         "name": "Krepost",
         "replaces": "Barracks",
         "requiredTech": "Bronze Working",
+        "uniqueTo": "Russia",
         "uniques": [
             "[-25]% Culture cost of natural border growth [in this city]",
             "[-25]% Gold cost of acquiring tiles [in this city]",
             "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
-        ],
-        "uniqueTo": "Russia"
+        ]
     },
     {
         "culture": 1,
@@ -392,10 +392,10 @@
         "replaces": "Temple",
         "requiredBuilding": "Shrine",
         "requiredTech": "Philosophy",
+        "uniqueTo": "Egypt",
         "uniques": [
             "Doubles Gold given to enemy if city is captured"
-        ],
-        "uniqueTo": "Egypt"
+        ]
     },
     {
         "culture": 2,
@@ -486,12 +486,12 @@
         "specialistSlots": {
             "Merchant": 1
         },
+        "uniqueTo": "Arabia",
         "uniques": [
             "Provides 1 extra copy of each improved luxury resource near this City",
             "[+2 Gold] from [Oil] tiles [in this city]",
             "[+2 Gold] from [Oasis] tiles [in this city]"
-        ],
-        "uniqueTo": "Arabia"
+        ]
     },
     {
         "hurryCostModifier": 25,
@@ -696,10 +696,10 @@
         "specialistSlots": {
             "Engineer": 1
         },
+        "uniqueTo": "Iroquois",
         "uniques": [
             "[+1 Production] from [Forest] tiles [in this city]"
-        ],
-        "uniqueTo": "Iroquois"
+        ]
     },
     {
         "hurryCostModifier": 25,
@@ -756,10 +756,10 @@
         "specialistSlots": {
             "Scientist": 2
         },
+        "uniqueTo": "Siam",
         "uniques": [
             "[+2 Science] from [Jungle] tiles [in this city]"
-        ],
-        "uniqueTo": "Siam"
+        ]
     },
     {
         "cost": 125,
@@ -809,11 +809,28 @@
         "replaces": "Castle",
         "requiredBuilding": "Walls",
         "requiredTech": "Chivalry",
+        "uniqueTo": "India",
         "uniques": [
             "[+1 Gold] [in this city] <after discovering [Flight]>",
             "Destroyed when the city is captured"
-        ],
-        "uniqueTo": "India"
+        ]
+    },
+    {
+        "cityHealth": 25,
+        "cityStrength": 7,
+        "cost": 160,
+        "culture": 2,
+        "faith": 1,
+        "hurryCostModifier": 25,
+        "maintenance": 0,
+        "name": "Kulla",
+        "replaces": "Castle",
+        "requiredBuilding": "Walls",
+        "requiredTech": "Chivalry",
+        "uniqueTo": "Albania",
+        "uniques": [
+            "Destroyed when the city is captured"
+        ]
     },
     {
         "culture": 1,
@@ -905,10 +922,10 @@
         "specialistSlots": {
             "Artist": 1
         },
+        "uniqueTo": "Celts",
         "uniques": [
             "Destroyed when the city is captured"
-        ],
-        "uniqueTo": "Celts"
+        ]
     },
     {
         "culture": 1,
@@ -1093,10 +1110,10 @@
         "specialistSlots": {
             "Engineer": 1
         },
+        "uniqueTo": "Austria",
         "uniques": [
             "[+25]% Great Person generation [in this city]"
-        ],
-        "uniqueTo": "Austria"
+        ]
     },
     {
         "cityHealth": 25,

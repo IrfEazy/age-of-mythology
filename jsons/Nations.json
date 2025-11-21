@@ -4166,6 +4166,74 @@
         ]
     },
     {
+        "adjective": [
+            "Albanian"
+        ],
+        "attacked": "So you dare challenge the eagle's nest? You will regret this!",
+        "cities": [
+            "Krujë",
+            "Lezhë",
+            "Shkodër",
+            "Durrës",
+            "Vlorë",
+            "Berat",
+            "Gjirokastër",
+            "Elbasan",
+            "Korçë",
+            "Kukës",
+            "Prizren",
+            "Ulqin",
+            "Tirana",
+            "Sarandë",
+            "Tepelenë"
+        ],
+        "declaringWar": "The mountains will witness your defeat. Albania shall never bow!",
+        "defeated": "The walls of Krujë have fallen, and the Eagle's wings are clipped. May history remember our defiance.",
+        "denounced": "Your actions disgrace you! Albania stands with honor, unlike you!",
+        "favoredReligion": "Christianity",
+        "hateHello": "What do you want now?",
+        "innerColor": [
+            0,
+            0,
+            0
+        ],
+        "introduction": "I have not brought you liberty, I found it here, among you. I offer you not my protection, but the chance to fight for your own soil. Welcome to the mountains of the Eagles.",
+        "leaderName": "Skanderbeg",
+        "name": "Albania",
+        "neutralHello": "Greetings, stranger.",
+        "outerColor": [
+            224,
+            0,
+            0
+        ],
+        "personality": "Skanderbeg",
+        "preferredVictoryType": "Domination",
+        "spyNames": [
+            "Gjergj",
+            "Hamza",
+            "Vrana",
+            "Balsha",
+            "Thopia",
+            "Dukagjini",
+            "Arianiti",
+            "Zaharia",
+            "Spani",
+            "Muzaka"
+        ],
+        "startBias": [
+            "Hill"
+        ],
+        "startIntroPart1": "Hail Skanderbeg, the Dragon of Albania! Born Gjergj Kastrioti, you rose from Ottoman captivity to become the greatest defender of your homeland. For 25 years, you held the mountain fortresses of Albania against the full might of the Ottoman Empire, earning fame across all of Christendom. Your tactical genius and the fierce loyalty of your mountain warriors made Albania's rugged highlands an unconquerable fortress.",
+        "startIntroPart2": "Great Skanderbeg, your people call upon you once more! Will you lead Albania's warriors from their mountain strongholds to glory? Can you build an empire that will stand eternal among the peaks? Will your civilization stand the test of time?",
+        "tradeRequest": "Let us make a deal that benefits both our mountain kingdoms.",
+        "uniqueName": "The League of Lezhë",
+        "uniques": [
+            "Double movement in [Hill]",
+            "[+15]% Strength <when fighting in [Hill] tiles>",
+            "Earn [50]% of killed [Land] unit's [Strength] as [Faith] <in [Friendly Land] tiles>"
+        ]
+    },
+    {
         "innerColor": [
             185,
             12,

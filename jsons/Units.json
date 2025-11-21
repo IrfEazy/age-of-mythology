@@ -1133,6 +1133,30 @@
     {
         "attackSound": "horse",
         "cost": 185,
+        "movement": 5,
+        "name": "Stradiot",
+        "obsoleteTech": "Combined Arms",
+        "promotions": [
+            "Formation I"
+        ],
+        "replaces": "Lancer",
+        "requiredResource": "Horses",
+        "requiredTech": "Metallurgy",
+        "strength": 25,
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Ignores terrain cost",
+            "Earn [100]% of killed [All] unit's [Strength] as [Gold]"
+        ],
+        "uniqueTo": "Albania",
+        "unitType": "Mounted",
+        "upgradesTo": "Anti-Tank Gun"
+    },
+    {
+        "attackSound": "horse",
+        "cost": 185,
         "movement": 4,
         "name": "Hakkapeliitta",
         "obsoleteTech": "Combined Arms",
