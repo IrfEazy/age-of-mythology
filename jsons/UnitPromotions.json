@@ -1433,5 +1433,11 @@
         "uniques": [
             "Unable to pillage tiles"
         ]
+    },
+    {
+        "name": "Albanian Mountain Warfare",
+        "uniques": [
+            "Double movement in [Hill]"
+        ]
     }
 ]

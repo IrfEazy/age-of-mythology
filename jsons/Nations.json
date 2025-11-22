@@ -4228,7 +4228,7 @@
         "tradeRequest": "Let us make a deal that benefits both our mountain kingdoms.",
         "uniqueName": "The League of Lezhë",
         "uniques": [
-            "Double movement in [Hill]",
+            "[Land] units gain the [Albanian Mountain Warfare] promotion",
             "[+15]% Strength <when fighting in [Hill] tiles>",
             "Earn [50]% of killed [Land] unit's [Strength] as [Faith] <in [Friendly Land] tiles>"
         ]
